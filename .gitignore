@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data and Models files
+*.json
+*.xml.json
+*.p
+*.pickle
+*.sav
+*.model
+*.npy
+*.state
+*.id2word

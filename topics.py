@@ -1,3 +1,30 @@
-[
-    "
-    ]
+import pandas as pd
+topic_themes_1 = pd.DataFrame(
+    {'Infered Topic Themes':
+    ["Various surgical procedures complications and outcomes", 
+    "Testing and detecting for virus infections (PCR)", 
+    "Studies into viral RNA strands", 
+    "Effect of virus infections at the cellular level", 
+    "COVID-19: and resulting/interaction respiratory infection", 
+    "Studies into Lung/Breast cancer",
+    "Lung injuries resulting from various other diseases",
+    "COVID-19: studies into risk factors which exacerbate its symptoms", 
+    "COVID-19: Transmission and spread prevention measures", 
+    "Studies into other coronavirus infections (e.g. COV-2, SARS, MERS)",
+    "No clear theme in the topic, related to different studies into viruses",
+    "Reviews and assessments into medical publications", 
+    "COVID-19: effect of the pandameic on medical practices", 
+    "Studies into obstetric procedures which includes complications from COVID-19",
+    "Travel and spread of pandemics including COVID-19",
+    "Medical chemistry and biochemestry research", 
+    "Studies into dispersion of airborne/aerosol particles",
+    "Viral transmission between humans and animals", 
+    "Cellular and molecular immunology",
+    "Mathematical modelling which touch on COVID19 modelling", 
+    "Data engineering and science papers",
+    "Economic implications of panademics and other factors on various business sectors",
+    "COVID-19: Global effect on communities","Vaccines", 
+    "Effect of COVID-19 and other issues on social wellbeing of people",
+    "Viral infections inflicting animals that may pass to humans or cause economic and social issues", 
+    "Studies into virus' membranes, receptors, binding mechanisims and protiens", 
+    "Testing, detection and diagnosis of viral infections (e.g. SARS-COV-2, Malaria, etc..."]})
